@@ -10,9 +10,11 @@ import { auth } from "../../server/config"
 
 
 
-export default function Authenticaton() {
+export default function Authenticaton(props) {
 
-  const [logInState, setLogInState] = useState("")
+  // const [logInState, setLogInState] = useState("")
+
+  const { logInState, setLogInState } = props
 
   useEffect(() => {
     if (localStorage.logInState === "true") {

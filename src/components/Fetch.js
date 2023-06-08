@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 
-// require('dotenv').config()
+
+require('dotenv').config()
 
 export default function Fetch() {
 

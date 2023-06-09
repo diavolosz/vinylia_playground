@@ -12,7 +12,6 @@ import { auth } from "../../server/config"
 
 export default function Authenticaton(props) {
 
-  // const [logInState, setLogInState] = useState("")
 
   const { logInState, setLogInState } = props
 
